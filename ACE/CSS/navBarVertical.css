@@ -1,0 +1,74 @@
+.menu-vertical {
+    width: 17%; /* Define a largura fixa do menu-vertical */
+    background-color: #fff;
+    position: fixed; /* Fixa o menu na lateral esquerda */
+    top: 80px; /* Começa logo abaixo do menu-horizontal */
+    left: 0; /* Alinhado à esquerda */
+    height: calc(100% - 80px); /* Ajusta a altura para não sobrepor o menu-horizontal */
+    overflow: auto; /* Permite rolagem se necessário */
+    box-shadow: 10px 0px 10px -5px #00000031; /* Sombra apenas no lado direito */
+}
+
+.menu-vertical ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    background-color: #fff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    border-top: none;
+    border-left: none;
+}
+
+.menu-vertical li{
+    display: block;
+    background-color: #fff;
+    color: #000;
+    padding: 12px 50px;
+    text-decoration: none;
+}
+
+.menu-vertical li:hover{
+    background-color: rgba(128, 0, 128, 0.486);
+}
+
+.menu-vertical a:hover{
+    color: white;
+}
+
+.menu-vertical a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 7px;
+}
+
+.menu-vertical .logo{
+    background-color: chocolate;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    width: 25%;
+    height: 25%;
+}
+
+.menu-vertical .selecionado{
+    background-color: #800080;
+}
+
+.menu-vertical .selecionado a{
+    color: white;
+}
+
+.menu-vertical .selecionado a:hover{
+    color: #f1f1f1;
+}
+
+.menu-vertical .selecionado:hover{
+    background-color: purple;
+}
+
+.menu-vertical img{
+    padding-right: 3px;
+}
+

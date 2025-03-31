@@ -1,0 +1,82 @@
+.menu-horizontal{
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+    box-shadow: #00000031 1px 0px 10px;
+}
+
+.menu-horizontal ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu-horizontal li{
+    float: left;
+}
+
+.menu-horizontal li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu-horizontal li a:hover{
+    background-color: #111;
+}
+
+.menu-horizontal .logo{
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    width: 230px;
+    height: 100%;
+}
+
+.menu-horizontal .comprimento{
+    display: flex;
+    align-items: start;
+    padding: 20px; 
+}
+
+.search{
+    padding: 20px 0; 
+}
+
+.menu-horizontal .search-bar{
+    display: flex; 
+    float: left;
+}
+
+.search-input{
+    background-color: white; 
+    width: 30px; 
+    height: 30px; 
+    padding-bottom: 5px;
+    border: 1px solid #00000063; 
+    border-radius: 5px 0 0 5px;
+    border-right: 0; 
+}
+
+.menu-horizontal input{
+    padding: 5px;
+    border-radius: 0 5px 5px 0; 
+    border: 1px solid #00000063; 
+    width: 100%; 
+    border-left: 0; 
+    outline: none;
+}
+
+.menu-horizontal .user{
+    display: flex;
+    align-items: start;
+    float: left; 
+    padding-top: 35px;
+    padding-right: 20px;
+    position: relative;
+    bottom: 15px;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-top: 80px; /* Espaço para o menu-horizontal */
+    padding: 20px;
+    
+}
+
+aside{
+    align-items: center;
+    border-right: 1px solid var(--borders);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    padding: 2rem;
+    text-align: center;
+    width: 20rem;
+    transition: 0.2s;
+    z-index: 2;
+}
+
+
